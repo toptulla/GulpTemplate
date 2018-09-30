@@ -1,0 +1,45 @@
+{
+  "name": "gulptamplate",
+  "version": "0.0.1",
+  "description": "Gulp template with sass, web-sync, etc. For faster development front.",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toptulla/GulpTemplate.git"
+  },
+  "keywords": [
+    "gulp",
+    "browser-sync",
+    "sass"
+  ],
+  "config": {
+    "src": {
+      "sass": "./src/sass"
+    },
+    "build": {
+      "css": "./build/css"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 version"
+  ],
+  "author": "Tsay Aleksey <ad.tsay@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toptulla/GulpTemplate/issues"
+  },
+  "homepage": "https://github.com/toptulla/GulpTemplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.1",
+    "require-dir": "^1.1.0",
+    "run-sequence": "^2.2.1"
+  }
+}
