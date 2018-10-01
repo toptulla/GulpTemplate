@@ -3,9 +3,18 @@ var runseq = require('run-sequence');
 
 gulp.task('default', function() {
   runseq(
-    'copy',
+    'add-bootstrap',
+    'copy-html',
+    'copy-css',
+    'copy-fonts',
+    'copy-img',
+    'copy-js',
     'sass',
     'server',
-    'copy:watch',
+    'copy-html:watch',
+    'copy-css:watch',
+    'copy-fonts:watch',
+    'copy-img:watch',
+    'copy-js:watch',
     'sass:watch')
 });
